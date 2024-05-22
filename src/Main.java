@@ -4,6 +4,8 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
+        System.out.println("Que caso quieres revisar? Hay tres posibles casos: ");
+        System.out.println("Selecciona 1, 2 o 3, dependiendo del caso que se quiera revisar");
         int answer = sc.nextInt();
         GestionTurnos gestionTurnos = new GestionTurnos();
 
